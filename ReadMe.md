@@ -1,37 +1,34 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2639
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+# 🚀 CompatAI
 
-\f0\fs24 \cf0 # CompatAI\
-\
-**Making powerful AI work on *any* computer \'97 even older ones.**\
-\
-CompatAI is an open-source platform that helps users check if their device can run modern AI models and automatically optimizes them for best performance.\
-\
-### The Problem\
-Most AI tools today are built for high-end computers. Millions of people with older laptops, 8GB RAM machines, or budget devices are left behind.\
-\
-### Our Solution\
-CompatAI acts like a **universal adapter + smart tuner** for AI:\
-- Checks your device\'92s capabilities\
-- Recommends the best models for your hardware\
-- Runs real benchmarks so you know exactly how fast it will be\
-- (Future) Automatically optimizes models to run efficiently on your specific machine\
-\
-### Current Features\
-- Clean web dashboard (no coding required)\
-- Device compatibility checker\
-- Real AI model benchmarking (using Ollama)\
-- Simple recommendations tailored to your hardware\
-\
-### Quick Start\
-\
-1. Install [Ollama](https://ollama.com)\
-2. Pull a model: `ollama pull phi3:mini`\
-3. Run the dashboard:\
-   ```bash\
-   pip install streamlit\
-   streamlit run app.py}
+**Making powerful AI work on any computer — even older ones.**
+
+CompatAI is an open-source tool that helps users check if their device can run modern AI models and gives clear recommendations + real benchmarks.
+
+## The Problem
+Most AI tools today require high-end computers. Millions of people with older laptops (like 2017 MacBooks) or lower-spec devices are left behind.
+
+## Our Solution
+We act as a **universal adapter** for AI:
+- Check your device's capabilities
+- Recommend the best models for your hardware
+- Run real performance benchmarks
+- (Coming soon) Automatically optimize models for your specific device
+
+## Current Features
+- Clean web dashboard (no coding needed)
+- Device compatibility checker
+- Real AI model benchmarking using Ollama
+- Simple, honest recommendations
+
+## Quick Start
+
+```bash
+# 1. Install Ollama
+curl -fsSL https://ollama.com/install.sh | sh
+
+# 2. Pull a model
+ollama pull phi3:mini
+
+# 3. Run CompatAI
+pip install streamlit
+streamlit run app.py
