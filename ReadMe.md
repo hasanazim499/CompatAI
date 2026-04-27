@@ -32,3 +32,19 @@ ollama pull phi3:mini
 # 3. Run CompatAI
 pip install streamlit
 streamlit run app.py
+
+
+Example Results (on 2017 MacBook Pro 8GB)
+
+Real benchmark with phi3:mini: 2.9 tokens/second
+Performance: Acceptable for lighter daily tasks
+
+Vision
+We want to make AI accessible to everyone — not just people with the newest hardware.
+Contributing
+We welcome contributions! Feel free to open issues or pull requests.
+License
+MIT License
+
+Built for people who want AI to work on the computers they already own.
+text
